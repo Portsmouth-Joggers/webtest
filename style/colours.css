@@ -1,0 +1,20 @@
+:root {
+  --col1: #FECB00;
+  --col1light: #FECB00AF;
+  --col2: #0038A6;
+  --col2light: #d7713d55;
+  --col2dark: hsla(20, 85%, 32%, 50%);
+  --page: #fdfdfd;
+  --text: #222222;
+  --col3: #555555;
+  --midgrey: #ccc;
+  --textinv: #eeeeee;
+  --bgcol: var(--page);
+  --link: var(--col2);
+  --vlink: var(--col1);
+  --footerspace: 0.5em;
+  --fixedspace: 0.5rem;
+  --curve: 0;
+  --buttoncurve: calc(var(--fixedspace) * 0.25);
+  --lineheight: 1.5rem;
+}

@@ -1,0 +1,49 @@
+<header>
+  <img id="masthead" src="/img/logo-pj.svg" alt="Portsmouth Joggers Logo" />
+  <h1>Portsmouth Joggers</h1>
+  <p>Running Around Pompey Since 1976.</p>
+</header>
+
+<main>
+  <nav @name=sidemenu id="sidemenu">
+    <section>
+      <h2>Menu</h2>
+      <span class="innerlist">
+        <a href="/">About us</a>
+        <a href="/groups/">Groups</a>
+        <a href="/c25k/">Couch to 5K</a>
+        <a href="/join/">Join us</a>
+      </span>
+    </section>
+  
+    <section>
+      <h2>Socials</h2>
+      <div class="socials">
+        <a
+          href="https://www.facebook.com/PompeyJoggers"
+          title="Facebook"
+          aria-label="Facebook"
+          target="_blank"
+          rel="noopener me"><img src="/img/logo-fb.svg" alt="Facebook"></a
+        >
+        <a
+          href="https://www.instagram.com/portsmouthjoggers/"
+          title="Instagram"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener me"><img src="/img/logo-ig.svg" alt="Instagram"></a
+        >
+      </div>
+    </section>
+  
+  </nav>
+
+  <article>
+    <slot for="content"/>
+  </article>
+</main>
+
+<footer>
+  <small>&copy; Portsmouth Joggers { new Date().getFullYear() }</small>
+</footer>
+

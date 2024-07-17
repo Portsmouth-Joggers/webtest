@@ -1,0 +1,40 @@
+img {
+  float: right;
+  width: 30%;
+}
+
+.icon {
+  display: block;
+  float: none;
+  clear: both;
+}
+
+a:has(.icon),
+a:hover:has(.icon) {
+  background: inherit;
+  translate: scale(0.1);
+}
+
+:target {
+  /* animate fade out */
+  animation: fadeOut 3s;
+}
+
+@keyframes fadeOut {
+  0% {
+    background: var(--page);
+    color: var(--text);
+  }
+  33% {
+    background: var(--col2);
+    color: var(--page);
+  }
+  66% {
+    background: var(--col1);
+    color: var(--col2);
+  }
+  100% {
+    background: var(--page);
+    color: var(--text);
+  }
+}

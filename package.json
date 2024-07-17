@@ -1,0 +1,15 @@
+{
+  "name": "pjs",
+  "version": "0.0.1",
+  "description": "PJs website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nue",
+    "build": "npx nue build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nuekit": "^0.5.3"
+  }
+}

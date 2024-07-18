@@ -4,8 +4,8 @@
   "description": "PJs website",
   "main": "index.js",
   "scripts": {
-    "start": "npx nue",
-    "build": "npx nue build"
+    "start": "bun nue",
+    "build": "bun nue build"
   },
   "author": "",
   "license": "ISC",

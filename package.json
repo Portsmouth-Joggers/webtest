@@ -4,8 +4,8 @@
   "description": "PJs website",
   "main": "index.js",
   "scripts": {
-    "start": "bun nue",
-    "build": "bun nue build"
+    "start": "cd src&&bun nue",
+    "build": "cd src&&bun nue build"
   },
   "author": "",
   "license": "ISC",

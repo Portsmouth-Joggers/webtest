@@ -28,22 +28,22 @@ https://bun.sh/docs/installation
 
 
 ## Cloning the site
-The site is shared through hithub at: https://github.com/Portsmouth-Joggers/webtest
+The site is shared through GitHub at: https://github.com/Portsmouth-Joggers/webtest
 
-If you're using the GitHub Desktop App you shoudl be able to clone it here: x-github-client://openRepo/https://github.com/Portsmouth-Joggers/webtest
+If you're using the GitHub Desktop App you should be able to clone it here: x-github-client://openRepo/https://github.com/Portsmouth-Joggers/webtest
 
-If you're using command line then navigte to a folder where you'd like to add the clone and type:
+If you're using command line then navigate to a folder where you'd like to add the clone and type:
 ```shell
 git clone https://github.com/Portsmouth-Joggers/webtest.git
 ```
 
-## Installing depenencies
-The site is built using a tool called `nuekit`.  All the necessary prep-work fo rthis should be done when you type:
+## Installing Dependencies
+The site is built using a tool called `nuekit`.  All the necessary prep-work for this should be done when you type∏
 ```shell
 bun install
 ```
 
-After this you should have everthing ready to build and serve a copy of the site locally
+After this you should have everything ready to build and serve a copy of the site locally
 
 
 

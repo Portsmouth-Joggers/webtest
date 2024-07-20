@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nuekit": "^0.5.3"
+    "nuekit": "0.5.1"
   }
 }

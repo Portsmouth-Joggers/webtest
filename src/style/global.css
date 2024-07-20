@@ -21,6 +21,7 @@
   --sidemenu-close-display: flex;
   --sidemenu-a-padding: 0.5em 0.2em;
   --sidemenu-socials-icon-size: 32px;
+  --sidemenu-hiding: none;
 
   --taglist-direction: row;
   --taglist-gap: calc(var(--fixedspace) / 4);
@@ -102,6 +103,7 @@
     --sidemenu-default-display: unset;
     --sidemenu-a-padding: 0.1em 0.2em;
     --sidemenu-socials-icon-size: 26px;
+    --sidemenu-hiding: inline-block;
 
     --article-pad: 0;
 
@@ -364,7 +366,10 @@ nav h2 {
   gap: var(--sidemenu-gap);
   align-content: stretch;
   background-color: var(--col1light);
+}
 
+#sidemenu section h2 {
+  display: var(--sidemenu-hiding);
 }
 
 #sidemenu section:first-of-type {

@@ -1,5 +1,6 @@
 title: PJC
 description: Portsmouth Joggers
+favicon: /img/logo-pj.svg
 globals: [style]
 router: false
 hotreload: true

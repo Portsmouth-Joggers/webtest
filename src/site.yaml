@@ -2,6 +2,6 @@ title: PJC
 description: Portsmouth Joggers
 globals: [style]
 router: false
-hotreload: false
+hotreload: true
 exclude: [package.json, package-lock.json]
 dist: ../.dist

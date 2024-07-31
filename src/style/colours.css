@@ -12,9 +12,21 @@
   --bgcol: var(--page);
   --link: var(--col2);
   --vlink: var(--col1);
-  --footerspace: 0.5em;
-  --fixedspace: 0.5rem;
-  --curve: 0;
-  --buttoncurve: calc(var(--fixedspace) * 0.25);
-  --lineheight: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --col1: hsl(70, 0%, 28%);
+    --col2: #EEE;
+    --col1light: hsl(70, 0%, 60%);
+    --col2light: #FECB00;
+    --bgcol: #001953;
+
+    --page: var(--bgcol);
+    --text: #eeeeee;
+    --textinv: #DDD;
+    --link: var(--col2light);
+    --vlink: var(--text);
+    --search-colour: var(--col2light);
+  }
 }

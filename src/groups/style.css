@@ -38,3 +38,7 @@ a:hover:has(.icon) {
     color: var(--text);
   }
 }
+
+h2 {
+  clear: both
+}

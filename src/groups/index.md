@@ -37,8 +37,9 @@ We will be looking forward to some away runs once the clocks change. So if you o
 The Portsmouth Joggers Club Social Group is for slower runners who like to run and chat and those who need a walk from time to time. We do loop backs if needed, to keep the group together. We may occasionally do a speed work session, these are for group members who choose to do speed work, if you do not want to do speed work there will always be an alternate option.
 
 ## Next Step
-![Sue & Sue](./sues.webp)
+
 Led by Sue Clarke and Sue Hyson
+![Sue & Sue](./sues.webp)
 ​
 PJC Next Step group are running at a pace of approximately 7.5 minutes per kilometre (12 minutes per mile) for 30-40 minutes continuously. Every other Tuesday we do Interval training of some sort. This is to increase stamina and staying power 😊
 
